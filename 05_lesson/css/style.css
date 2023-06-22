@@ -1,0 +1,28 @@
+/* Reset the browser setting for all the margin and paddings. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: red 2px dashed;
+    font-size: 1.5rem;
+    margin: 1.5em;
+    margin: 1.5em 2em;
+    padding: 1.5em;
+    outline: 3px solid rgb(207, 87, 207);
+    outline-offset: 5px;
+}
+
+.circle {
+    margin: 3rem auto;
+    background-color: gold;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    outline: 2px solid red;
+    outline-offset: 0.25rem;
+}
