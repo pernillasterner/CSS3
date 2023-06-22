@@ -15,6 +15,7 @@ https://www.youtube.com/watch?v=OXGznpKZ_sA&ab_channel=freeCodeCamp.org
 3. Colors
 4. Units & Sizes
 5. Box Model
+6. Typography
 
 
 
@@ -25,3 +26,4 @@ https://www.youtube.com/watch?v=OXGznpKZ_sA&ab_channel=freeCodeCamp.org
 - Color Palett Generator - https://coolors.co/
 - WebAIM - https://webaim.org/
 - CSS Values & Units - https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units
+- Google Fonts - https://fonts.google.com/
