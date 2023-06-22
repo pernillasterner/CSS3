@@ -1,0 +1,48 @@
+/* Universal selector. Selecting everything on the page */
+* {
+    font-family: monospace;
+}
+
+/* 
+    Element selector
+    Inheriting - When an element take the computed value of the property from its parent element.
+    The body is the parent of all other elements
+*/
+body {
+    font-size: 22px;
+}
+
+/* Form elements do not inherit the font settings */
+button, input, textarea, select {
+    font: inherit;
+}
+
+/* Comma is important with this ruleset */
+h1, h2 {
+    color: lightseagreen;
+}
+
+/* Selects all the elements of that type */
+p {
+    color: purple;
+}
+
+/* Waterfall of ruleset */
+p {
+    color: green;
+}
+
+.highlight {
+    text-transform: uppercase;
+    background: gold;;
+}
+
+/* Class selector. Can be used more than once */
+.gray {
+    color: gray;
+}
+
+/* ID Selector. More specific and should only exist once. Unique */
+#second {
+    font-style: italic;
+}
