@@ -10,9 +10,10 @@ https://www.youtube.com/watch?v=OXGznpKZ_sA&ab_channel=freeCodeCamp.org
 
 ## Lessons
 
-1. Lesson - Start Here
-2. Lesson - CSS Selectors
-3. Lesson - Colors
+1. Start Here
+2. CSS Selectors
+3. Colors
+4. Units & Sizes
 
 
 
@@ -22,3 +23,4 @@ https://www.youtube.com/watch?v=OXGznpKZ_sA&ab_channel=freeCodeCamp.org
 - Specificity Calculator - https://specificity.keegan.st/
 - Color Palett Generator - https://coolors.co/
 - WebAIM - https://webaim.org/
+- CSS Values & Units - https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units
