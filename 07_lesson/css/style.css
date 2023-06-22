@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    /* color: palevioletred; */
+    color: hsl(207, 44%, 49%);
+}
+
+/* Important to have them in a certain order */
+/* pseudo class */
+a:visited { color: limegreen; }
+a:hover, a:focus { color: hsl(189, 44%, 49%); }
+a:active { color: orange; }
+

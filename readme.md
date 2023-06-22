@@ -16,6 +16,7 @@ https://www.youtube.com/watch?v=OXGznpKZ_sA&ab_channel=freeCodeCamp.org
 4. Units & Sizes
 5. Box Model
 6. Typography
+7. Styling links
 
 
 
