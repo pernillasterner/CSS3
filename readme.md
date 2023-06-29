@@ -18,6 +18,7 @@ https://www.youtube.com/watch?v=OXGznpKZ_sA&ab_channel=freeCodeCamp.org
 6. Typography
 7. Styling links
 8. Styling lists
+8. Menu
 
 
 
