@@ -17,6 +17,7 @@ https://www.youtube.com/watch?v=OXGznpKZ_sA&ab_channel=freeCodeCamp.org
 5. Box Model
 6. Typography
 7. Styling links
+8. Styling lists
 
 
 

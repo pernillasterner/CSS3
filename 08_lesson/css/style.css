@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    padding: 5% 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+    /* Square becomes the fallback */
+    /* list-style-image: square url(../images/checkmark.webp); */
+    text-align: center;
+}
+
+ul li {
+    color: lightcoral
+}
+/* odd or even number */
+ul li:nth-child(2) {
+    color: lightblue
+}
+
+ul ::marker {
+    color: #000;
+    /* font-family: fantasy; */
+    font-size: 1em;
+
+    content: "Only 5kr > ";
+}
