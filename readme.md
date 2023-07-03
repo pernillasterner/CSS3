@@ -21,6 +21,7 @@ https://www.youtube.com/watch?v=OXGznpKZ_sA&ab_channel=freeCodeCamp.org
 09. Menu
 10. Display
 11. Floats
+12. Columns
 
 
 
@@ -32,3 +33,5 @@ https://www.youtube.com/watch?v=OXGznpKZ_sA&ab_channel=freeCodeCamp.org
 - WebAIM - https://webaim.org/
 - CSS Values & Units - https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units
 - Google Fonts - https://fonts.google.com/
+- Symbols - https://symbl.cc/en/
+
