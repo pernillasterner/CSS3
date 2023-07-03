@@ -31,5 +31,7 @@ section {
     background-color: lightsalmon;
     border: 1px solid #333;
     padding: 1rem;
-    overflow: auto;
+    /* the old way */
+    /* overflow: auto; */
+    display: flow-root;
 }
