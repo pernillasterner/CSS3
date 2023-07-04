@@ -27,7 +27,7 @@ body {
 }
 
 .box {
-    min-width: 100px;
+    /* min-width: 100px; */
     height: 100px;
     background-color: #000;
     color: #fff;
@@ -38,4 +38,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    /* in this case it´s = min-width */
+    /* flex-basis: 300px;
+    flex-shrink: 1; */
+
+    /* grow, shrink, basis */
+    flex: 1 1 300px;
+}
+
+.box:nth-child(2) {
+    /* flex-shrink: 2; */
+    flex: 2 2 300px;
 }
