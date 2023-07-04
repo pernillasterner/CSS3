@@ -50,4 +50,5 @@ body {
 .box:nth-child(2) {
     /* flex-shrink: 2; */
     flex: 2 2 300px;
+    order: -1;
 }
