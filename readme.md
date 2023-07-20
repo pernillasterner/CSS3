@@ -25,6 +25,7 @@ https://www.youtube.com/watch?v=OXGznpKZ_sA&ab_channel=freeCodeCamp.org
 13. Position
 14. Flexbox
 15. Grid Layout
+16. Images
 
 
 ## Links
