@@ -37,10 +37,21 @@ body {
     justify-content: flex-start;
     align-items: center;
     gap: 30px;
+
+    /* background image fallback */
+    background-color: rgb(251, 210, 156);
+    background-image: url(../img/map-2176x1451.png);
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 .h1 {
     font-size: 500%;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px #000;
+    background-color: hsla(0, 0%, 0%, 40%);
+    padding: 0.25rem;
+    border-radius: 10px;
 }
 
 .profile-pic-figure {
