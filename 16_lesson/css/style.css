@@ -34,6 +34,11 @@ body {
     background-repeat: repeat-y, no-repeat;
     background-position: right center;
     background-size: 20%, auto; */
+
+    /* shortcut */
+    background: repeat-y right center url(../img/bubbles.png), 
+                no-repeat linear-gradient(to left, steelblue, white);
+    background-size: 20%, auto;
 }
 
 .container { 
