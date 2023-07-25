@@ -26,6 +26,7 @@ https://www.youtube.com/watch?v=OXGznpKZ_sA&ab_channel=freeCodeCamp.org
 14. Flexbox
 15. Grid Layout
 16. Images
+17. Media Queries
 
 
 ## Links
@@ -39,4 +40,4 @@ https://www.youtube.com/watch?v=OXGznpKZ_sA&ab_channel=freeCodeCamp.org
 - Symbols - https://symbl.cc/en/
 - Flexbox Froggy - https://flexboxfroggy.com/
 - Grid Garden - https://cssgridgarden.com/#sv
-- Support for HTMLm CSS - https://caniuse.com/
+- Support for HTML, CSS - https://caniuse.com/
