@@ -1,107 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
 
 /* Begin Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 img {
-    display: block;
+  display: block;
 }
 /* End Reset */
 
-
 /* Utility Classes */
 .nowrap {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 .offscreen {
-    position: absolute;
-    left: -10000px;
+  position: absolute;
+  left: -10000px;
 }
 /* End Utility Classes */
 
-
 body {
-    font-family: 'Nunito', sans-serif;
-    min-height: 100vh;
-    background-color: aliceblue;
-    /* background-image: url(../img/bubbles.png),
+  font-family: "Nunito", sans-serif;
+  min-height: 100vh;
+  background-color: aliceblue;
+  /* background-image: url(../img/bubbles.png),
                       linear-gradient(to left, steelblue, white);
     background-repeat: repeat-y, no-repeat;
     background-position: right center;
     background-size: 20%, auto; */
 
-    /* shortcut */
-    background: repeat-y right center url(../img/bubbles.png), 
-                no-repeat linear-gradient(to left, steelblue, white);
-    background-size: 20%, auto;
+  /* shortcut */
+  background:
+    repeat-y right center url(../img/bubbles.png),
+    no-repeat linear-gradient(to left, steelblue, white);
+  background-size: 20%, auto;
 }
 
-.container { 
-    /* adding an extra layer */
-    background-color: rgb(251, 210, 156);
-    background-image: url(../img/map-2176x1451.png);
-    background-repeat: repeat;
-    background-position: top center;
-    background-size: cover;
+.container {
+  /* adding an extra layer */
+  background-color: rgb(251, 210, 156);
+  background-image: url(../img/map-2176x1451.png);
+  background-repeat: repeat;
+  background-position: top center;
+  background-size: cover;
 }
 
 .hero {
-    border-bottom: 2px solid #000;
-    padding: 20px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 30px;
+  border-bottom: 2px solid #000;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
 
-    /* adding a filter */
-    background-color: hsla(0, 0%, 0%, 40%);
+  /* adding a filter */
+  background-color: hsla(0, 0%, 0%, 40%);
 }
 
 .h1 {
-    font-size: 500%;
-    color: aliceblue;
-    text-shadow: 2px 2px 5px #000;
+  font-size: 500%;
+  color: aliceblue;
+  text-shadow: 2px 2px 5px #000;
 }
 
 .profile-pic-figure {
-    width: 35%; /* width of the page */
+  width: 35%; /* width of the page */
 }
 
 .profile-pic-figure img {
-    width: 100%;
-    height: auto;
-    min-width: 100px;
-    border: 5px double grey;
-    border-radius: 50%;
+  width: 100%;
+  height: auto;
+  min-width: 100px;
+  border: 5px double grey;
+  border-radius: 50%;
 }
 
 .example {
-    margin-top: 1rem;
-    padding-left: 20px;
-    border: 1px solid red;
+  margin-top: 1rem;
+  padding-left: 20px;
+  border: 1px solid red;
 }
 
 .example img {
-    width: 25%;
-    height: auto;
+  width: 25%;
+  height: auto;
 }
 
 .clip {
-    font-weight: 800;
-    font-size: 18rem;
-    text-align: center;
+  font-weight: 800;
+  font-size: 18rem;
+  text-align: center;
 
-    background-image: url(../img/scenic-2200x1331.png);
-    background-size: 100%;
-    text-transform: uppercase;
-    /* Chrome */
-    -webkit-background-clip: text;
-    /* Firefox */
-    background-clip: text;
-    color: hsla(0, 0%, 0%, 0.20);
+  background-image: url(../img/scenic-2200x1331.png);
+  background-size: 100%;
+  text-transform: uppercase;
+  /* Chrome */
+  -webkit-background-clip: text;
+  /* Firefox */
+  background-clip: text;
+  color: hsla(0, 0%, 0%, 0.2);
 }

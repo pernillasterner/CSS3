@@ -2,32 +2,32 @@
     Best practice is not to set an absolute font-size value. 
 */
 header {
-    width: 100%;
+  width: 100%;
 }
 
 /* rem is relative to the root that is defined by the browser */
 main {
-    /* font-size: 2rem; */
+  /* font-size: 2rem; */
 }
 
 body {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 h1 {
-    border: red 2px dashed;
-    width: 50%;
-    font-size: 3rem;
-    /* The em of the padding will be related to font-size: 3rem  */
-    /* 3rem x 0.5 */
-    padding: 0.5em;
+  border: red 2px dashed;
+  width: 50%;
+  font-size: 3rem;
+  /* The em of the padding will be related to font-size: 3rem  */
+  /* 3rem x 0.5 */
+  padding: 0.5em;
 }
 
 /* Looking at the main element. Safer to use rem */
 /* Can use em on margin and padding */
 p {
-    /* The default in any browser is usually 16px and the only value that you will commonly use is px (pixels).*/
-    font-size: 1.2em;
-    /* 40 characters before the line-break */
-    width: 40ch;
+  /* The default in any browser is usually 16px and the only value that you will commonly use is px (pixels).*/
+  font-size: 1.2em;
+  /* 40 characters before the line-break */
+  width: 40ch;
 }

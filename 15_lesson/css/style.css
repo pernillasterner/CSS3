@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
 
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    grid-auto-rows: 50px auto 50px;
-    grid-template-areas: 
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-auto-rows: 50px auto 50px;
+  grid-template-areas: 
     /* 
         Body Definitions
         hd = header
@@ -21,65 +21,64 @@ body {
         sb = sidebar
         ft = footer
     */
-        "hd hd hd hd hd hd hd hd hd"
-        "mn mn mn mn mn mn mn sb sb"
-        "ft ft ft ft ft ft ft ft ft";
-    column-gap: 0.5rem;
+    "hd hd hd hd hd hd hd hd hd"
+    "mn mn mn mn mn mn mn sb sb"
+    "ft ft ft ft ft ft ft ft ft";
+  column-gap: 0.5rem;
 }
 
 .el {
-    background-color: rgb(196, 73, 92);
-    color: #fff;
-    display: grid;
-    place-content: center;
+  background-color: rgb(196, 73, 92);
+  color: #fff;
+  display: grid;
+  place-content: center;
 }
 
 .header {
-    grid-area: hd;
+  grid-area: hd;
 }
 
 .sidebar {
-    grid-area: sb;
-    background-color: darkgoldenrod;
+  grid-area: sb;
+  background-color: darkgoldenrod;
 }
 
 .footer {
-    grid-area: ft;
-    background-color: yellowgreen;
+  grid-area: ft;
+  background-color: yellowgreen;
 }
 
-
 .container {
-    grid-area: mn;
-    min-height: 400px;
-    display: grid;
-    /* 4 columns and each has 1fr */
-    grid-template-columns: repeat(2, 1fr 2fr);
-    grid-auto-rows: minmax(150px, auto);
-    gap: 1rem;
+  grid-area: mn;
+  min-height: 400px;
+  display: grid;
+  /* 4 columns and each has 1fr */
+  grid-template-columns: repeat(2, 1fr 2fr);
+  grid-auto-rows: minmax(150px, auto);
+  gap: 1rem;
 }
 
 .box {
-    background-color: #000;
-    color: #fff;
-    font-size: 2rem;
+  background-color: #000;
+  color: #fff;
+  font-size: 2rem;
 }
 
 .box:first-child {
-    background-color: rgb(78, 145, 123);
-    grid-column: 1 / 4;
-    grid-row: 1 / 3;
+  background-color: rgb(78, 145, 123);
+  grid-column: 1 / 4;
+  grid-row: 1 / 3;
 
-    /* nest a grid inside a grid item */
-    display: grid;
-    /* align-content: center;
+  /* nest a grid inside a grid item */
+  display: grid;
+  /* align-content: center;
     justify-content: start; */
-    place-content: center start;
-    place-content: center;
+  place-content: center start;
+  place-content: center;
 }
 
 .box:nth-child(2) {
-    background-color: coral;
-    grid-column: 1 / 5;
-    grid-row: 3 / 4;
+  background-color: coral;
+  grid-column: 1 / 5;
+  grid-row: 3 / 4;
 }

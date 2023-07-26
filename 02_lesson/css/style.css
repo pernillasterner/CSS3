@@ -1,6 +1,6 @@
 /* Universal selector. Selecting everything on the page */
 * {
-    font-family: monospace;
+  font-family: monospace;
 }
 
 /* 
@@ -9,40 +9,44 @@
     The body is the parent of all other elements
 */
 body {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 /* Form elements do not inherit the font settings */
-button, input, textarea, select {
-    font: inherit;
+button,
+input,
+textarea,
+select {
+  font: inherit;
 }
 
 /* Comma is important with this ruleset */
-h1, h2 {
-    color: lightseagreen;
+h1,
+h2 {
+  color: lightseagreen;
 }
 
 /* Selects all the elements of that type */
 p {
-    color: purple;
+  color: purple;
 }
 
 /* Waterfall of ruleset */
 p {
-    color: green;
+  color: green;
 }
 
 .highlight {
-    text-transform: uppercase;
-    background: gold;;
+  text-transform: uppercase;
+  background: gold;
 }
 
 /* Class selector. Can be used more than once */
 .gray {
-    color: gray;
+  color: gray;
 }
 
 /* ID Selector. More specific and should only exist once. Unique */
 #second {
-    font-style: italic;
+  font-style: italic;
 }
