@@ -22,6 +22,10 @@ img {
 }
 
 /* || GENERAL STYLE */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font: 1.5rem "Nunito", sans-serif;
   min-height: 100vh;
@@ -80,35 +84,34 @@ footer {
 
 /* || PROFILE CARD */
 .card {
-    /* doesn´t scroll underneath the heather */
-    scroll-margin-top: 8rem;
-    width: min(100%, 350px);
-    background-color: #cbd5e1;
-    border: 2px solid #000;
-    border-radius: 15px;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  /* doesn´t scroll underneath the heather */
+  scroll-margin-top: 8rem;
+  width: min(100%, 350px);
+  background-color: #cbd5e1;
+  border: 2px solid #000;
+  border-radius: 15px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card figure {
-    display: flex;
-    flex-flow: column nowrap;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .card img {
-    border: 5px double #333;
-    border-radius: 50%;
+  border: 5px double #333;
+  border-radius: 50%;
 }
 
 .card figcaption {
-    font-weight: bolder;
-    font-size: 2rem;
-    margin: 1rem;
-    text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+  margin: 1rem;
+  text-align: center;
 }
-
 
 /* || SMALL */
 @media screen and (min-width: 576px) {
