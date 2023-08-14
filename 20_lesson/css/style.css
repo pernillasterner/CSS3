@@ -18,7 +18,11 @@
   --ALT-BGCOLOR: #1e293b;
   --RADIAL-COLOR: whitesmoke;
   --LIGHT-COLOR: whitesmoke;
-  --DARKCOLOR: var(--DARKCOLOR);
+  --DARK-COLOR: #000;
+
+  /* GENERAL */
+  --PADDING: 0.5rem;
+  --SHADOWS: 0 6px 5px -5px var(--DARK-COLOR);
 }
 
 body {
@@ -37,7 +41,6 @@ footer {
   position: sticky;
   background-color: var(--ALT-BGCOLOR);
   color: var(--LIGHT-COLOR);
-  text-align: center;
 }
 
 header {
@@ -46,24 +49,10 @@ header {
 
 nav {
   background-color: var(--LIGHT-COLOR);
-  padding: 0.5rem;
-  border-bottom: 2px solid var(--DARKCOLOR);
-  font-weight: bolder;
-
-  display: flex;
-  justify-content: space-evenly;
-}
-
-nav :is(a:link, a:visited) {
-  color: var(--DARKCOLOR);
-}
-
-nav a:any-link {
-  color: var(--DARKCOLOR);
-}
-
-nav :is(a:hover, a:focus) {
-  color: hsla(0, 0%, 20%, 0.6);
+  color: var(--DARK-COLOR);
+  padding: var(--PADDING);
+  border-bottom: 2px solid var(--DARK-COLOR);
+  box-shadow: var(--SHADOWS);
 }
 
 main {
@@ -85,7 +74,7 @@ footer {
   scroll-margin-top: 8rem;
   width: min(100%, 350px);
   background-color: #cbd5e1;
-  border: 2px solid var(--DARKCOLOR);
+  border: 2px solid var(--DARK-COLOR);
   border-radius: 15px;
   padding: 1rem;
   display: flex;
