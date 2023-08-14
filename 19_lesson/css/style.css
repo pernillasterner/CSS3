@@ -127,9 +127,14 @@ footer {
   text-align: center;
 }
 
-.card figcaption::before {
+.card figcaption::after {
   content: "✨";
   display: block;
+}
+
+/* can also use first-line */
+.card figcaption::first-letter {
+  font-size: 3rem;
 }
 
 .card p {
