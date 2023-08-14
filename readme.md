@@ -26,6 +26,7 @@ https://www.youtube.com/watch?v=OXGznpKZ_sA&ab_channel=freeCodeCamp.org
 16. Images
 17. Media Queries
 18. Card Project
+19. Pseudo
 
 ## Links
 
