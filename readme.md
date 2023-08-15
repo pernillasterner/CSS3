@@ -29,6 +29,7 @@ https://www.youtube.com/watch?v=OXGznpKZ_sA&ab_channel=freeCodeCamp.org
 19. Pseudo
 20. Variables
 21. Functions
+22. Animations
 
 ## Links
 
