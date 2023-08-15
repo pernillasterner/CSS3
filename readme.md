@@ -27,6 +27,8 @@ https://www.youtube.com/watch?v=OXGznpKZ_sA&ab_channel=freeCodeCamp.org
 17. Media Queries
 18. Card Project
 19. Pseudo
+20. Variables
+21. Functions
 
 ## Links
 
