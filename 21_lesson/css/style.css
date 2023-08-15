@@ -111,6 +111,21 @@ main aside {
   margin-top: 20px;
 }
 
+.tooltip {
+  border-bottom: 1px dashed orange;
+  position: relative;
+}
+
+.tooltip:hover::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  top: -20px;
+  white-space: nowrap;
+  background-color: var(--DARK-COLOR);
+  padding: var(--PADDING);
+  border-radius: 15px;
+}
+
 footer {
   bottom: 0;
 }
