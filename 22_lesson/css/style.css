@@ -38,15 +38,18 @@ div {
 
 div:first-child {
   background-color: aqua;
-  transform: translateX(-50%);
+  /* transform: translateX(-50%); */
+  transform: rotateX(180deg);
 }
 
 div:nth-child(2) {
   background-color: yellow;
-  transform: translateY(-2rem);
+  /* transform: translateY(-2rem); */
+  transform: rotateY(45deg);
 }
 
 div:last-child {
   background-color: limegreen;
-  transform: translate(100%, -5rem);
+  /* transform: translate(100%, -5rem); */
+  transform: rotateZ(90deg); /* same as rotate() */
 }
