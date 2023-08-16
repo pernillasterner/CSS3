@@ -41,7 +41,7 @@ div:first-child {
   /* transform: translateX(-50%); */
   /* transform: rotateX(180deg); */
   /* transform: scaleX(120%); */
-  transform: skewX(-10deg);
+  /* transform: skewX(-10deg); */
 }
 
 div:nth-child(2) {
@@ -49,7 +49,7 @@ div:nth-child(2) {
   /* transform: translateY(-2rem); */
   /* transform: rotateY(45deg); */
   /* transform: scaleY(120%); */
-  transform: skewY(10deg);
+  /* transform: skewY(10deg); */
 }
 
 div:last-child {
@@ -57,5 +57,17 @@ div:last-child {
   /* transform: translate(100%, -5rem); */
   /* transform: rotateZ(90deg); */
   /* transform: scale(50%, 50%); */
-  transform: skew(-10deg, -10deg);
+  /* transform: skew(-10deg, -10deg); */
+}
+
+div:hover {
+  background-color: midnightblue;
+  transition-property: background-color;
+  transition-duration: 2s;
+  /* 0.5s duration before it starts to transition */
+  transition-delay: 0.5s;
+}
+
+div:last-child:hover {
+  transform: rotate(180deg);
 }
