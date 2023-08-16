@@ -30,6 +30,7 @@ https://www.youtube.com/watch?v=OXGznpKZ_sA&ab_channel=freeCodeCamp.org
 20. Variables
 21. Functions
 22. Animations
+23. Organization
 
 ## Links
 
