@@ -72,3 +72,35 @@ div:hover {
 div:last-child:hover {
   transform: rotate(180deg);
 }
+
+.animate {
+  /* naming the animation */
+  animation-name: slide;
+  /* duration of slide */
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  /* start to the right, next time starts to the left */
+  animation-direction: normal;
+  /* keeps the last state of the bg-color purple :  */
+  animation-fill-mode: forwards;
+}
+
+/* defining keyframes for the animation */
+/* slide is the identifier */
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(300px) rotate(180deg);
+  }
+  66% {
+    transform: translateX(-300px) rotate(-180deg);
+  }
+  100% {
+    transform: translateX(0px);
+    background-color: rebeccapurple;
+  }
+}
