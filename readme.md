@@ -45,3 +45,4 @@ https://www.youtube.com/watch?v=OXGznpKZ_sA&ab_channel=freeCodeCamp.org
 - Grid Garden - https://cssgridgarden.com/#sv
 - Support for HTML, CSS - https://caniuse.com/
 - Transform - https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+- Animation - https://developer.mozilla.org/en-US/docs/Web/CSS/animation
