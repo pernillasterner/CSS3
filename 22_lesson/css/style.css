@@ -74,17 +74,15 @@ div:last-child:hover {
 }
 
 .animate {
-  /* naming the animation */
-  animation-name: slide;
-  /* duration of slide */
+  /* animation-name: slide;
   animation-duration: 5s;
   animation-timing-function: ease-in-out;
   animation-delay: 1s;
   animation-iteration-count: 1;
-  /* start to the right, next time starts to the left */
   animation-direction: normal;
-  /* keeps the last state of the bg-color purple :  */
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards; */
+  /* SHORTHAND */
+  animation: 5s ease-in-out 1s 2 normal forwards slide;
 }
 
 /* defining keyframes for the animation */
