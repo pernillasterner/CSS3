@@ -1,1 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Nunito&display=swap");
+
+/* // RESET */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  /* removes the small padding */
+  display: block;
+  /* will make the images responsive */
+  max-width: 100%;
+  height: auto;
+}
+
+/* Form elements */
+input,
+button,
+textarea {
+  font: inherit;
+}
